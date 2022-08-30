@@ -1,4 +1,12 @@
-baseURL: https://anja-dhnd.github.io/tsarina
+baseURL: ""
 languageCode: en-us
 title: Tsarina
-theme: "PaperMod"
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+
