@@ -1,7 +1,30 @@
-baseURL: ""
+baseURL: "https://unrivaled-sunshine-b53a35.netlify.app/"
 languageCode: en-us
 title: Tsarina
 theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
+  socialIcons:
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/anais-dhnd/"
+    - name: TryHackMe
+      url: "https://tryhackme.com/p/Tsarina"
+    - name: GitHubn
+      url: "https://github.com/anja-dhnd"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
 
 menu:
   main:
@@ -9,4 +32,11 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
