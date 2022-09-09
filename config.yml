@@ -5,7 +5,7 @@ theme: PaperMod
 
 params:
   homeInfoParams:
-    Title: "Welcome Stranger"
+    Title: "Hello, Stranger."
     Content: This is just a place to throw my notes.
   socialIcons:
     - name: LinkedIn
