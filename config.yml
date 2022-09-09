@@ -5,8 +5,8 @@ theme: PaperMod
 
 params:
   homeInfoParams:
-    Title: "Hello Stranger"
-    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
+    Title: "Welcome Stranger"
+    Content: This is just a place to throw my notes.
   socialIcons:
     - name: LinkedIn
       url: "https://www.linkedin.com/in/anais-dhnd/"
