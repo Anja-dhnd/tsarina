@@ -31,7 +31,7 @@ params:
   cover:
     linkFullImages: true
 
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
 
   ShowReadingTime: true
 
@@ -41,15 +41,27 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: privacy
+      name: Privacy
+      url: /privacy/
       weight: 10
+    - identifier: hacking
+      name: Hacking
+      url: /hacking/
+      weight: 20
+    - identifier: OSINT
+      name: OSINT
+      url: /OSINT/
+      weight: 20
+    - identifier: network
+      name: Network
+      url: /network/
+      weight: 30
+    - identifier: misc
+      name: Misc
+      url: /misc/
+      weight: 40
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 30
+      weight: 50
