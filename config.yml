@@ -4,16 +4,29 @@ title: Tsarina
 theme: PaperMod
 
 params:
-  homeInfoParams:
-    Title: "Hello, Stranger."
-    Content: This is just a place to throw my notes.
+  profileMode:
+    enabled: true
+    title: "" # optional default will be site title
+    subtitle: "Penetration Tester. Data Privacy Advocate. Web Developer."
+    imageUrl: "https://tryhackme-images.s3.amazonaws.com/user-avatars/1791a46ff6b5e512c5cd48eb20f10ec6.png" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
   socialIcons:
-    - name: LinkedIn
+    - name: "linkedin"
       url: "https://www.linkedin.com/in/anais-dhnd/"
     - name: TryHackMe
       url: "https://tryhackme.com/p/Tsarina"
-    - name: GitHubn
+    - name: "github"
       url: "https://github.com/anja-dhnd"
+    - name: "telegram"
+      url: "https://t.me/tsarin"
 
   cover:
     linkFullImages: true
