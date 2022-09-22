@@ -2,7 +2,7 @@
 title: "Poison Null Byte"
 date: 2022-09-22T20:53:14+02:00
 draft: false
-tags: ["injection","hacking"]
+tags: ["injection","hacking", "LFI", "directory traversal"]
 ---
 
 # Poison Null Byte Attack
