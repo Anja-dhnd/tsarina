@@ -35,33 +35,21 @@ params:
 
   ShowReadingTime: true
 
-  ShowShareButtons: true
+  ShowShareButtons: false
 
   ShowPostNavLinks: true
 
 menu:
   main:
-    - identifier: privacy
-      name: Privacy
-      url: /privacy/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: hacking
-      name: Hacking
-      url: /hacking/
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 20
-    - identifier: OSINT
-      name: OSINT
-      url: /OSINT/
-      weight: 20
-    - identifier: network
-      name: Network
-      url: /network/
-      weight: 30
-    - identifier: misc
-      name: Misc
-      url: /misc/
-      weight: 40
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 50
+      weight: 30

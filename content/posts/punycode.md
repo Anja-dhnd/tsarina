@@ -2,6 +2,7 @@
 title: "Punnycode"
 date: 2022-08-30T14:48:20+02:00
 draft: false
+categories: ["Social Engineering"]
 tags: ["phishing", "punycode", "social engineering"]
 ---
 

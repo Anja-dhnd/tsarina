@@ -2,6 +2,7 @@
 title: "RDP"
 date: 2022-09-22T21:22:53+02:00
 draft: true
+category: ["Network"]
 tags: ["protocol","network","Windows"]
 ---
 
